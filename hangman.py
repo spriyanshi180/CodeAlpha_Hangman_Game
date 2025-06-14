@@ -24,16 +24,17 @@ while lives > 0 and "_" in display:
         continue
 
     if guess in guessed_letters:
-        print("🔁 You already guessed that letter. Try a different one.")
+        print(f"🔁 You already guessed '{guess}'. Try a different letter.")
         continue
 
     guessed_letters.append(guess)
 
     if guess in chosen_word:
+        for i in range(word_length):
+            if chosen_word[i] == guess:
+                display[i] = guess
         print("✅ Good guess!")
-        for position in range(word_length):
-            if chosen_word[position] == guess:
-                display[position] = guess
+    
     else:
         lives -= 1
         print(f"❌ Wrong guess. You have {lives} lives left.")
@@ -44,4 +45,4 @@ while lives > 0 and "_" in display:
 if "_" not in display:
     print("\n🎉 Congratulations! You guessed the word:", chosen_word)
 else:
-    print("\n💀 Game Over! The word was:", chosen_word)
+    print("\n💀 Game Over! The correct word was:", chosen_word)
