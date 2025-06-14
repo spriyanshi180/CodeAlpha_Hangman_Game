@@ -29,3 +29,13 @@ cd CodeAlpha_Hangman_Game
 ```bash
 python hangman.py
 ```
+📌 Example Gameplay
+
+Welcome to Hangman!
+Guess the word: _ _ _ _ _ _
+
+Guess a letter: a
+Good job! a is in the word.
+
+Guess a letter: z
+Wrong guess! You have 5 lives left.
