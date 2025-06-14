@@ -21,9 +21,9 @@ A simple text-based Hangman game implemented in Python as part of the *CodeAlpha
 ```
 
 3. Navigate into the project folder:
-  ```bash
+ 
      cd CodeAlpha_Hangman_Game
-```
+
 
 4. Run the script:
 ```bash
