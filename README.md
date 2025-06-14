@@ -20,8 +20,9 @@ A simple text-based Hangman game implemented in Python as part of the *CodeAlpha
    git clone https://github.com/spriyanshi180/CodeAlpha_Hangman_Game.git
 ```
 
-3. Navigate into the project folder: ```
- ```bash
+
+3. Navigate into the project folder:
+ 
 cd CodeAlpha_Hangman_Game
 ```
 
